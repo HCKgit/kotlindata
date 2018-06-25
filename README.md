@@ -5,7 +5,7 @@ From the article: https://www.callicoder.com/kotlin-spring-boot-mysql-jpa-hibern
 
 Create the database first (the one one the connection url in application.properties)
 
-#Testing commands
+# Testing commands
 
 ## 1. Add an article
 curl -i -H "Content-Type: application/json" -X POST \
