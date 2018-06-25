@@ -1,5 +1,9 @@
 # kotlindata
-another sucessful spring boot2 example with gradle
+spring boot 2, Kotlin, gradle, intelliJ, mysql
+
+project original creation from the command:
+
+    $ curl https://start.spring.io/starter.zip -d type=gradle-project -d language=kotlin -d style=web,jpa,mysql -d packageName=kotlin-data -d name=sb-kotdata -o sb-kotdatav.zip
 
 From the article: https://www.callicoder.com/kotlin-spring-boot-mysql-jpa-hibernate-rest-api-tutorial/
 
@@ -12,7 +16,7 @@ curl -i -H "Content-Type: application/json" -X POST \
 -d '{"title": "How to learn Spring framework", "content": "Resources to learn Spring framework"}' \
 http://localhost:8080/api/articles
 
-## 2. Get al articles
+## 2. Get all articles
 curl -i -H 'Accept: application/json' http://localhost:8080/api/articles
 
 ## 3. Get article 1
