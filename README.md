@@ -13,8 +13,8 @@ Create the database first (the one one the connection url in application.propert
 
 ## 1. Add an article
     curl -i -H "Content-Type: application/json" -X POST \
--d '{"title": "How to learn Spring framework", "content": "Resources to learn Spring framework"}' \
-http://localhost:8080/api/articles
+    -d '{"title": "How to learn Spring framework", "content": "Resources to learn Spring framework"}' \
+    http://localhost:8080/api/articles
 
 ## 2. Get all articles
     curl -i -H 'Accept: application/json' http://localhost:8080/api/articles
