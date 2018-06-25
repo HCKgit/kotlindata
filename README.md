@@ -7,7 +7,7 @@ project original creation from the command:
 
 From the article: https://www.callicoder.com/kotlin-spring-boot-mysql-jpa-hibernate-rest-api-tutorial/
 
-Create the database first (the one one the connection url in application.properties)
+Create the database first (the one one the connection url in application.properties) [kotlin_demo_app]
 
 # Testing commands
 
