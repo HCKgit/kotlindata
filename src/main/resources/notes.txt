@@ -1,0 +1,13 @@
+curl -i -H "Content-Type: application/json" -X POST \
+-d '{"title": "How to learn Spring framework", "content": "Resources to learn Spring framework"}' \
+http://localhost:8080/api/articles
+
+curl -i -H 'Accept: application/json' http://localhost:8080/api/articles
+
+curl -i -H 'Accept: application/json' http://localhost:8080/api/articles/1
+
+curl -i -H "Content-Type: application/json" -X PUT \
+-d '{"title": "Learning Spring Boot", "content": "Some resources to learn Spring Boot"}' \
+http://localhost:8080/api/articles/1
+
+curl -i -X DELETE http://localhost:8080/api/articles/1
